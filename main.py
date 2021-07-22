@@ -3,5 +3,3 @@ def deb_card(card_num: str):
         return f'Номер вашей карты катрты : **** **** **** {card_num[-4:]}'
     else:
         return ValueError
-print(deb_card(input('')))
-
