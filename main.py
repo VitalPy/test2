@@ -1,16 +1,7 @@
-# This is a sample Python script.
+def deb_card(card_num: str):
+    if type (card_num) == str and card_num.isdigit() and len(card_num)==16:
+        return f'Номер вашей карты катрты : **** **** **** {card_num[-4:]}'
+    else:
+        return ValueError
+print(deb_card(input('')))
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('\n\tVitalPy\n\t\t\t!!!')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
